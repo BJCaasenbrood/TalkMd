@@ -1,6 +1,6 @@
-SOURCE=demo
+SOURCE=talk
 MD_EXTENSION=md
-OUTPUT=demo
+OUTPUT=talk
 LANGUAGE=us
 SETTINGS_FILE='settings.tex'
 # Options are pygments (the default), kate, monochrome, espresso, zenburn, haddock, and tango

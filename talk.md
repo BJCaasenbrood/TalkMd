@@ -1,15 +1,15 @@
 ---
-author: Brandon Caasenbrood, Alexander Pogromsky, and Henk Nijmeijer
-title: Easy Development of Designs, Simulation Models, \newline and Controllers for Soft Robots using SOROTOKI
-subtitle: \textit{Soft Robotics Symposium, Delft University, September 1th}
-date: Code at \alert{\href{https://github.com/BJCaasenbrood/SorotokiCode}{github.com/BJCaasenbrood/SorotokiCode}} 
+author: dr. Purple PowerPointer
+title: A surprisingly awesome presentation title
+subtitle: with an awesome subtitle
+date: \today
 logo: 
 footer-left: 
-institute: Eindhoven University of Technology, Dynamics and Control group \newline \alert{\href{mailto:b.j.caasenbrood@tue.nl}{b.j.caasenbrood@tue.nl}}
+institute: Institute of Metropolis, go-go power-pointers \newline \alert{\href{mailto:p.p.pointer@gogo.edu}{p.p.pointer@gogo.edu}}
 header-includes: 
 ---
 
-# Open challenges in *Soft Robotics*
+# First part
 
 ## Open challenges in Soft Robotics
  Soft robotics is a new field of robotics purposefully designed with **soft elements** whose goal is to endow the system with \textbf{natural motion}\footnote[1]{Or, depending on the background, biological morphology}.
@@ -25,10 +25,65 @@ header-includes:
 ## Open challenges in Soft Robotics
  ... but also \alert{disadvantages}
 
+
+## This slide has columns
+
+::: columns
+:::: column
+- **left column**
+  - item 1
+  - item 2
+::::
+:::: column
+- **right column**
+  - item 1
+  - item 2
+::::
+:::
+
+## This slide has columns
+
+::: columns
+:::: column
+Implementation in Markdown 
+
+\scriptsize
+```markdown
+::: columns
+:::: column
+- **left column**
+  - item 1
+  - item 2
+::::
+:::: column
+- **right column**
+  - item 1
+  - item 2
+::::
+:::
+```
+::::
+:::: column
+LaTex converted using Pandoc
+
+\scriptsize
+``` latex
+\begin{columns}
+\begin{column}{0.48\textwidth}
+
+\end{column}
+\begin{column}{0.48\textwidth}
+
+\end{column}
+```
+::::
+:::
+
+
 ## Some examples
 
-<!-- \movie{\includegraphics[width=5cm]{./img/gif/frame-0.png}}
-{./img/octo.mp4} -->
+\centering
+\movie{\includegraphics[width=0.75\textwidth]{./img/gif/frame-0.png}}{./img/octo.mp4}
 
 <!-- \movie{\includegraphics[width=5cm]{./img/gif/frame-0.png}}{} -->
 
@@ -102,5 +157,3 @@ Consider the (Ph)-system:
 $$\dot{x} = (\mathcal{J} - \mathcal{D}) \nabla_{\!x}\,H(x) + G(x) u$$
 
 where $H(x(q,p)):= \frac{1}{2}p^\top M^{-1} p + \mathcal{U}(q)$.
-
-##
